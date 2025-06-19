@@ -109,5 +109,3 @@ npm install -g @modelcontextprotocol/tools
 - If configured, a service account is automatically logged in and token refreshed every minute.
 
 - A user's manual login overrides the service session temporarily.
-"# WinCC-Unified-MCP-XT" 
-"# WinCC-Unified-MCP-XT" 
