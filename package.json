@@ -1,0 +1,14 @@
+{
+  "type": "module",
+   "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "express": "^5.1.0",
+    "mcp-remote": "^0.1.13",
+    "nodemon": "^3.1.10",
+    "zod": "^3.25.51"
+  }
+}
