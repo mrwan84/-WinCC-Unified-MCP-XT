@@ -65,7 +65,7 @@ npm install
 node start
 ```
 
-###🖥️ Connecting with Claude Desktop
+### 🖥️ Connecting with Claude Desktop
 
 To use this MCP server with Claude AI (desktop version):
 
