@@ -96,9 +96,7 @@ export const sendReq = async (
       console.error(
         `send request || GraphQL request failed with status ${response.status}: ${errorBody}`
       );
-      throw new Error(
-        `send request || GraphQL request failed: ${response.status} - ${response.statusText}`
-      );
+      
     }
 
     const jsonResponse = await response.json();
@@ -107,11 +105,6 @@ export const sendReq = async (
       console.error(
         "send request || GraphQL errors:",
         JSON.stringify(jsonResponse.errors, null, 2)
-      );
-      throw new Error(
-        `send request || GraphQL query errors: ${jsonResponse.errors
-          .map((e) => e.message)
-          .join(", ")}`
       );
     }
 
