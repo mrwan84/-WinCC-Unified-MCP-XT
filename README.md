@@ -2,6 +2,7 @@
 
 A **Model Context Protocol (MCP)** server designed to interface with **SIEMENS WinCC Unified SCADA systems** via their **GraphQL API**.
 This server exposes various WinCC Unified functionalities as MCP tools, enabling AI assistants and other MCP-compatible clients to interact programmatically with the SCADA system.
+### This project is based on the repository by [Andreas Vogler](https://github.com/vogler75/winccua-mcp-server)
 
 ---
 
